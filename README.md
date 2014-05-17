@@ -6,12 +6,18 @@ READ-ME
 
 Echo "Hello World";
 
-If "1"="1"
-    $Foo ="2";
-    $Sky ="Blue";
-    $Mchammer ="Old";
-    
-Else 
-  Die;
+If ("1"="1") {
 
+    $Foo = "2";
+    
+    $Sky = "Blue";
+    
+    $Mchammer = "Old";
+    
+    }
+    
+Else {
+  Die;
+  
+  }
 ?>
