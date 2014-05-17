@@ -6,7 +6,7 @@ READ-ME
 
 Echo "Hello World";
 
-If ("1"="1") {
+If ("1"=="1") {
 
     $Foo = "2";
     
@@ -17,6 +17,7 @@ If ("1"="1") {
     }
     
 Else {
+
   Die;
   
   }
